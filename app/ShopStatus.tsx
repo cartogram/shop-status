@@ -5,7 +5,7 @@ import {Ui, App} from './foundation';
 
 interface Props {}
 
-export function Watch(_props: Props) {
+export function ShopStatus(_props: Props) {
   return (
     <Router>
       <Ui>

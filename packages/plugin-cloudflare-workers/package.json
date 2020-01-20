@@ -1,0 +1,17 @@
+{
+  "name": "@lemon/plugin-cloudflare-workers",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "dependencies": {
+    "@sewing-kit/hooks": "^0.0.21",
+    "@sewing-kit/plugin-babel": "^0.0.36",
+    "@sewing-kit/plugin-javascript": "^0.0.40",
+    "@sewing-kit/plugin-package-utilities": "^0.0.28",
+    "@sewing-kit/plugins": "^0.0.19",
+    "immer": "^5.2.1"
+  },
+  "optionalDependencies": {
+    "@sewing-kit/plugin-webpack": "^0.0.34"
+  }
+}

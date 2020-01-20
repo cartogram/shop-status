@@ -1,5 +1,5 @@
 {
-  "name": "watch",
+  "name": "shop-status",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
     "@quilted/sewing-kit-plugins": "^0.0.28",
     "@sewing-kit/cli": "^0.0.42",
     "@sewing-kit/eslint-plugin": "^0.0.10",
+    "@sewing-kit/plugins": "^0.0.19",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
     "raw-loader": "^4.0.0",

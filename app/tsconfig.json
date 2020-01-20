@@ -6,10 +6,14 @@
     "outDir": "build/ts",
     "paths": {
       "@lemon/zest": ["../packages/zest"],
+      "@lemon/plugin-cloudflare-workers": [
+        "../packages/plugin-cloudflare-workers"
+      ]
     }
   },
   "exclude": ["sewing-kit.config.ts", "build"],
   "references": [
+    {"path": "../packages/plugin-cloudflare-workers"},
     {"path": "../packages/zest"}
   ]
 }

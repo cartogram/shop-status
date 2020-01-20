@@ -10,6 +10,7 @@
     "outDir": "build/project/ts"
   },
   "references": [
+    {"path": "./packages/plugin-cloudflare-workers"},
     {"path": "./packages/zest"},
     {"path": "./functions/api"},
     {"path": "./app"}

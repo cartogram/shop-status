@@ -1,0 +1,8 @@
+name = "shop-status"
+type = "webpack"
+account_id = "956329eafa277ffd079f0067f2fa43e8"
+workers_dev = true
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
